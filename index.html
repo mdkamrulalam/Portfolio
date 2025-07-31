@@ -28,11 +28,36 @@
   
 
   <!-- HERO Section -->
-  <header class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white text-center px-6">
-    <h1 class="text-5xl font-bold mb-4">Md Kamrul Alam</h1>
-    <p class="text-xl mb-6">Civil Engineer | Bridge & Structural Design Enthusiast</p>
-    <a href="#about" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full hover:bg-blue-100 transition">Explore More</a>
-  </header>
+<header class="relative min-h-screen flex items-center justify-center bg-cover bg-center text-white" style="background-image: url('your-image.jpg');">
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div> <!-- dark overlay -->
+
+  <div class="relative z-10 text-center px-6 max-w-4xl">
+    <span class="inline-block bg-yellow-600 text-white px-4 py-1 text-sm font-semibold rounded-full mb-4">Civil Engineer & Bridge Specialist</span>
+
+    <h1 class="text-5xl font-extrabold mb-2 leading-tight">
+      Md Kamrul<br><span class="text-yellow-400">Alam</span>
+    </h1>
+
+    <p class="text-xl mb-8 font-light">
+      Specializing in <span class="font-semibold text-yellow-400">Bridge Engineering</span> with focus on design, construction, and resilience under natural hazards.
+    </p>
+
+    <!-- Contact Info -->
+    <div class="flex flex-wrap justify-center gap-6 mb-8 text-sm">
+      <div><strong>📍 Location:</strong> Weimar, Germany</div>
+      <div><strong>📞 Phone:</strong> +49 155 1013 5596</div>
+      <div><strong>✉️ Email:</strong> kamrul.nhre@gmail.com</div>
+      <div><strong>🔗 LinkedIn:</strong> alammdkamrul</div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex justify-center gap-4">
+      <a href="#projects" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded shadow transition">View My Work</a>
+      <a href="kamrul-cv.pdf" download class="bg-white hover:bg-gray-100 text-gray-800 font-semibold px-6 py-3 rounded shadow transition">Download CV</a>
+    </div>
+  </div>
+</header>
+
   
 <!-- ABOUT Section -->
 <section id="about" class="py-20 px-6 bg-gray-100 text-gray-800">
