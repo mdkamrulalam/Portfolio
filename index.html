@@ -52,88 +52,79 @@
 
   
 
-  <!-- HERO Section -->
-<header class="relative min-h-screen flex items-center justify-center bg-cover bg-center text-white" style="background-image: url('png/PensacolaBayBridge.png');">
-  <div class="absolute inset-0 bg-black bg-opacity-60"></div> <!-- dark overlay -->
+  <!-- Hero Section with Contact Info and Buttons -->
+<section class="relative bg-cover bg-center min-h-screen flex flex-col justify-center items-center text-center px-6" style="background-image: url('/your-bridge-background.jpg');">
 
-  <div class="relative z-10 text-center px-6 max-w-4xl">
-    <span class="inline-block bg-yellow-600 text-white px-4 py-1 text-sm font-semibold rounded-full mb-4">Civil Engineer & Bridge Specialist</span>
+  <!-- Badge -->
+  <div class="absolute top-10 left-10 bg-yellow-700 text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md">
+    Civil Engineer & Bridge Specialist
+  </div>
 
-    <h1 class="text-5xl font-extrabold mb-2 leading-tight">
-      Md Kamrul<br><span class="text-yellow-400">Alam</span>
-    </h1>
+  <!-- Heading -->
+  <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
+    Md Kamrul <span class="text-yellow-400">Alam</span>
+  </h1>
 
-    <p class="text-xl mb-8 font-light">
-      Specializing in <span class="font-semibold text-yellow-400">Bridge Engineering</span> with focus on design, construction, and resilience under natural hazards.
-    </p>
+  <!-- Subtext -->
+  <p class="mt-4 max-w-2xl text-lg md:text-xl text-white">
+    Specializing in <span class="text-yellow-400 font-semibold">Bridge Engineering</span>
+    with focus on design, construction, and resilience under natural hazards.
+  </p>
 
- <!-- CONTACT SECTION: HORIZONTAL STYLE -->
-<div class="flex flex-wrap justify-center items-start gap-10 mt-6 text-sm text-white">
-
-  <!-- Location -->
-  <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
-    <div class="flex items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-yellow-400">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-              d="M12 11.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 22s8-6.5 8-12a8 8 0 10-16 0c0 5.5 8 12 8 12z" />
+  <!-- Contact Info Row -->
+  <div class="mt-10 flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-10 text-sm">
+    <!-- Location -->
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM12 22s8-6.5 8-12a8 8 0 10-16 0c0 5.5 8 12 8 12z" />
       </svg>
-      <span class="text-sm text-gray-400">Location</span>
+      <div>
+        <span class="text-gray-400">Location</span><br />
+        <span class="font-semibold text-white">Weimar, Germany</span>
+      </div>
     </div>
-    <span class="font-semibold text-white">Weimar, Germany</span>
-  </div>
 
-  <!-- Phone -->
-  <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
-  <div class="flex items-center gap-2">
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="text-yellow-400">
-      <path d="M6.62 10.79a15.09 15.09 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24 11.36 11.36 0 003.58.57 1 1 0 011 1v3.61a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.61a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.24 1.05l-2.32 2.32z"/>
-    </svg>
-    <span class="text-sm text-gray-400">Phone</span>
-  </div>
-  <span class="font-semibold text-white">+49 155 1013 5596</span>
-</div>
+    <!-- Phone -->
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M3 5.8c0 .5.1 1 .2 1.4 1.3 5 5.6 9.4 10.6 10.7.5.1 1 .2 1.5.2.7 0 1.3-.2 1.8-.6l2-1.6c.3-.2.5-.5.5-.9 0-.3-.1-.6-.2-.9l-1.1-2.4c-.2-.4-.6-.6-1-.6-.2 0-.3 0-.5.1l-2.4 1.1c-2.1-1.1-3.9-2.9-5-5l1.1-2.4c.2-.5.1-1-.2-1.3L9 3.2c-.2-.2-.5-.3-.8-.3-.3 0-.6.2-.9.4L6 4.9c-.4.5-.6 1.1-.6 1.7z"/>
+      </svg>
+      <div>
+        <span class="text-gray-400">Phone</span><br />
+        <span class="font-semibold text-white">+49 155 1013 5596</span>
+      </div>
+    </div>
 
-
-  <!-- Email -->
-  <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
-    <div class="flex items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="text-yellow-400">
+    <!-- Email -->
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-400" viewBox="0 0 24 24" fill="currentColor">
         <path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
       </svg>
-      <span class="text-sm text-gray-400">Email</span>
+      <div>
+        <span class="text-gray-400">Email</span><br />
+        <a href="mailto:kamrul.nhre@gmail.com" class="font-semibold text-white hover:underline">kamrul.nhre@gmail.com</a>
+      </div>
     </div>
-    <a href="mailto:kamrul.nhre@gmail.com" class="font-semibold text-white hover:underline">kamrul.nhre@gmail.com</a>
-  </div>
 
-  <!-- LinkedIn -->
-  <div class="flex flex-col items-center sm:items-start text-center sm:text-left">
-    <div class="flex items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="text-yellow-400">
+    <!-- LinkedIn -->
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-400" viewBox="0 0 24 24" fill="currentColor">
         <path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8.3 18H5.6V9h2.7v9zm-1.35-10.2c-.87 0-1.45-.59-1.45-1.33 0-.76.6-1.34 1.49-1.34.88 0 1.45.58 1.47 1.34 0 .74-.59 1.33-1.51 1.33zm11.05 10.2h-2.7v-4.8c0-1.15-.41-1.94-1.43-1.94-.78 0-1.24.53-1.44 1.04-.08.2-.1.47-.1.74v4.96h-2.7s.04-8.05 0-8.9h2.7v1.26c.36-.55 1-1.33 2.43-1.33 1.77 0 3.1 1.16 3.1 3.66v5.31z"/>
       </svg>
-      <span class="text-sm text-gray-400">LinkedIn</span>
+      <div>
+        <span class="text-gray-400">LinkedIn</span><br />
+        <a href="https://www.linkedin.com/in/alammdkamrul/" target="_blank" class="font-semibold text-white hover:underline">alammdkamrul</a>
+      </div>
     </div>
-    <a href="https://www.linkedin.com/in/alammdkamrul/" target="_blank" class="font-semibold text-white hover:underline">alammdkamrul</a>
   </div>
 
-</div>
-
-</div>
-
- <!-- Buttons Section (aligned under contact info row) -->
-<div class="flex justify-center gap-4 mt-4">
-  <!-- View My Work Button -->
-  <a href="#projects" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-6 rounded-md shadow transition">
-    View My Work
-  </a>
-
-  <!-- Download CV Button -->
-  <a href="/files/Kamrul_Alam_CV.pdf" target="_blank" download
-     class="bg-white text-gray-700 font-semibold py-2 px-6 rounded-md shadow hover:bg-gray-100 transition">
-    Download CV
-  </a>
-</div>
-
+  <!-- Buttons Row -->
+  <div class="flex justify-center mt-8 space-x-6">
+    <a href="#projects" class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold transition">View My Work</a>
+    <a href="/path/to/cv.pdf" download class="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">Download CV</a>
+  </div>
+</section>
 
 
   
